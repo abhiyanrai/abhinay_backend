@@ -12,9 +12,10 @@ exports.handleContactForm = async (req, res) => {
       { name, email, phone, eventType, message }
     );
     // info.abhinayrai@gmail.com
+    // info.abhinayrai@gmail.com
     // Send the email
     await sendEmail({
-      to: "info.abhinayrai@gmail.com",
+      to: "abhishek.rai8280@gmail.com",
       subject: `New Contact from ${name}`,
       html,
     });
